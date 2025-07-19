@@ -122,6 +122,11 @@ class Compte extends AbstractEntity{
     $utilisateur->getId($data['idutilisateur']);
     $compte->setUtilisateur($utilisateur);
 
+    
+
+     var_dump($compte);
+     die;
+
     return $compte;
    }
    public function toArray(){

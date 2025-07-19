@@ -60,7 +60,7 @@
                 <span class="truncate">Se connecter</span>
               </button>
             </div>
-            <p class="text-[#999999] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline"><a href="/account/create" class="text-[#ff6600]"> n'avez pas de compte ? Créer un compte</a></p>
+            <p class="text-[#999999] text-sm font-normal leading-normal pb-3 pt-1 px-4 text-center underline"><a href="/compte/creer" class="text-[#ff6600]"> n'avez pas de compte ? Créer un compte</a></p>
           </div>
         </div>
       </div>

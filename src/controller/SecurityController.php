@@ -28,8 +28,12 @@ class SecurityController extends AbstractController{
   }
   public function edit(){
 
+  }public function save(){
+    $this->renderHtml('security/succes');
+           
   }
   public function create(){
+          $this->renderHtml('security/registre');
 
   }
   public function login(){

@@ -15,12 +15,32 @@ class PersonneRepository extends AbstractRepository{
     }
     return self::$personneRepository;
   }
+
   public function findByLogin(string $login){
     $query = 'SELECT * from utilisateur where login = :login';
     $stmt = $this->pdo->prepare($query);
     $stmt->execute([':login'=>$login]);
     $row  = $stmt->fetch(\PDO::FETCH_ASSOC);
     return $row ? Utilisateur::toObject($row):null;
+
+    if($data){
+      $objectUtilisateur=Utilisateur::toObject($data);
+      return $objectUtilisateur;
+    }
    }
+
+
+   public function selectAll(){
+
+    }
+        public function insert($entity){
+
+        }
+        public function update($entity){
+
+        }
+        public function delete(){
+
+        }
 }
 
